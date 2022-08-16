@@ -25,3 +25,10 @@ resource "aws_internet_gateway" "dev_internet_gateway" {
     Name = "dev-igw"
   }
 }
+resource "aws_route_table" "dev_public_rt" {
+  vpc_id = aws_vpc.dev_vpc.id
+
+  tags = {
+    Name = "dev-public-rt"
+  }
+}
