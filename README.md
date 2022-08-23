@@ -2,14 +2,6 @@
 
 HashiCorp Terraform is an infrastructure as code tool that lets you define both cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share. You can then use a consistent workflow to provision and manage all of your infrastructure throughout its lifecycle. Terraform can manage low-level components like compute, storage, and networking resources, as well as high-level components like DNS entries and SaaS features.
 
-## Build a dev environment with AWS and Terraform
-
-<p align="center">
-  <img width="800" src="docs/terraform.png" alt="Infrastructure"/>
-  <br/>
-  <span>Infrastructure architecture with terraform and AWS</span>
-</p>
-
 ## Declarative x Procedural
 
 - In the declarative you declare an intention and terraform turns around to talk to the cloud to configure what you need, which steps have to be done, which orders and so on.
